@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+html, body{
+    height:100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content{
+    margin-left: 25%;
+}
+
+.nav-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+}
+.nav-main ul{
+    margin: 0;
+}
+.nav-main ul li{
+    flex-direction: column;
+    align-items: end;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-main ul li a{
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-main ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#personal-description{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main-content header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content header .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content header div img{
+    align-items: center;
+    margin-right: 30px;
+    width: 160px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact-me{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact-me a{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.main-content .about-me{
+    padding: 70px;
+}
+
+.main-content .about-me h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-content .about-me p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-content #portafolio{
+    padding: 75px;
+}
+
+.main-content #portafolio .items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-content #portafolio .items .card{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.main-content #portafolio .items .card .img-title{
+    width: 100%;
+    height: 150px;
+}
+
+
+.main-content #portafolio .items .card .tecnologies img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.main-content #portafolio h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content #educacion{
+    padding: 75px;
+}
+
+.main-content #educacion h2{
+    margin-bottom: 20px;
+}
+
+.main-content #educacion p{
+    font-size: 20px;
+}
+
+.main-content #educacion .items{
+    border: 1px solid rgba(170, 170, 170, 0.796);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.main-content #educacion .items div div{
+   width: 70%;
+}
+
+.main-content #educacion .items div .fecha{
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+ .main-content #educacion .items .tecnologies img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+ }
+
+ .main-content #skill{
+    padding: 75px;
+ }
+
+ .main-content #skill ul{
+    font-size: 20px;
+ }
+
+ 
+ .main-content #skill ul li{
+    padding: 10px;
+ }
+
+ .main-content #contacto{
+    padding: 75px;
+ }
+
+ .main-content #t-portafolio .items .tecnologies img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+ }
+
+ 
+
+
+
+
